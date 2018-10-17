@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script>
+        function getDetails()
+        {
+
+        var email = document.getElementById("email").value;
+        var pwd = document.getElementById("password").value;
+         hello.displayMsg(email,pwd)
+        }
+    </script>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="2"><center>User Login</center></td>
+    </tr>
+    <tr>
+        <td> Email: </td>
+        <td><input type="email" id = "email" value="Enter email"></td>
+    </tr>
+    <tr>
+        <td> Password: </td>
+        <td><input type="password" id = "password" value="Enter password"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><center><input type="button" value="Login" onclick="getDetails()"/></center></td>
+    </tr>
+</table>
+</body>
+</html>

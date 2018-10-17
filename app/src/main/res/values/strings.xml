@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Webview_kotlin</string>
+	<string name="enter_url_main">Enter URL</string>
+	<string name="enter_url_et">Enter URL</string>
+</resources>
